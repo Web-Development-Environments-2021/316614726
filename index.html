@@ -136,14 +136,12 @@
       <form action="mailto:someone@example.com" method="post" enctype="text/plain">
         Name:<br>
         <input type="text" name="name"><br>
-        E-mail:<br>
-        <input type="text" name="mail"><br>
         Message:<br>
-        <input type="text" id="msg" name="comment" size="50"> 
+        <textarea type="text" id="msg" name="comment"></textarea>  
         <br><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
-        </form>
+      </form>
         <button onclick="insertSmiley1()">😄</button><button onclick="insertSmiley2()">😍</button><button onclick="insertSmiley3()">😂</button>
     </div>
   </section>
@@ -158,8 +156,8 @@
   </script>
   <script type="text/javascript">
   $(document).scroll(function() {
-      $('#menu').toggle($(this).scrollTop()>1000)
-  });​
+      $('#menu').toggle($(this).scrollTop()>1000);
+  });
   </script>
 
   <script>
