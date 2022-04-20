@@ -1,6 +1,6 @@
 Name: Dor Levi
 ID: 316614726
-Website URL: https://web-development-environments-2021.github.io/assignment1-levido/
+Website URL: https://web-development-environments-2021.github.io/316614726/
 
 This website is about my fiancee's grandmother - Clara Fogel.
 Clara is a 94 years old holocaust survivor from Romania who lives happily in Rehovot, Israel.
